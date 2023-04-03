@@ -23,7 +23,7 @@ const tooltip = d3.select("body").append("div")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
-d3.csv("./data/population_new.csv").then(data => {
+d3.csv("population_new.csv").then(data => {
     const startYear = 2016; // Replace with the starting year in your dataset
     const endYear = 2022; // Replace with the ending year in your dataset
 
