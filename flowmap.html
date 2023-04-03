@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Flowchart map</title>
+
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-core.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-map.min.js"></script>
+    <script src="https://cdn.anychart.com/geodata/latest/custom/world/world.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/proj4js/2.3.15/proj4.js"></script>
+    <script src="https://cdn.anychart.com/releases/8.10.0/js/anychart-data-adapter.min.js"></script>
+
+    <style type="text/css">
+      html,
+      body,
+      #container {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container"></div>
+    
+
+    <script>
+      anychart.onDocumentReady(function () {
+        anychart.data.loadJsonFile("refugee_back_to_ukr.json", function (data) {
+          // Filter data by year
+          function filterFunction(val1, val2, year) {
+            if (val2) {
+              return function (fieldVal) {
+                return (
+                  val1 <= fieldVal && fieldVal < val2 && fieldVal.year === year
+                );
+              };
+            }
+            return function (fieldVal) {
+              return val1 <= fieldVal && fieldVal.year === year;
+            };
+          }
+
+          // Creates map chart
+          var map = anychart.connector();
+
+          // Sets settings for map chart
+          map.geoData("anychart.maps.world");
+
+          map.unboundRegions().enabled(true).fill("#E1E1E1").stroke("#D2D2D2");
+
+          // Sets title for map chart and customizes it
+          map.title("Refugees flowmap to Ukraine");
+
+          // Display all labels even if there is an overlap
+          map.overlapMode("allow-overlap");
+
+          // Helper function to create several series
+          var createSeries = function (name, data, color, year) {
+            // Creates connector series for destinations and customizes them
+            var connectorSeries = map
+              .connector(data)
+              .name(name)
+              .fill(color)
+              .stroke({
+                color: color,
+                thickness: 2,
+              });
+
+            // Changes color to indicate the hovered line
+            connectorSeries.hovered().stroke("1.5 #212121").fill("#212121");
+
+            // Settings for the arrow marker
+            connectorSeries
+  .markers()
+  .position("100%")
+  .fill(color)
+  .stroke({
+    color: color,
+    thickness: 2, // Add thickness to make the stroke more visible
+  })
+  .size(8);
+
+
+            // Settings for the hovered marker
+            connectorSeries
+              .hovered()
+              .markers()
+              .position("100%")
+              .size(10)
+              .fill("#212121")
+              .stroke("2 #455a64");
+
+            // Sets labels for the source countries
+            connectorSeries
+              .labels()
+              .enabled(true)
+              .format(function () {
+                return this.getData("from");
+              });
+
+            // Sets the thickness of the line based on the series
+            if (name === "More than 500") {
+              connectorSeries.startSize(5).endSize(2);
+            } else if (name === "200 to 450") {
+              connectorSeries.startSize(3.5).endSize(1);
+            } else if (name === "100 to 200") {
+              connectorSeries.startSize(3.5).endSize(1.5);
+            } else if (name === "50 to 100") {
+              connectorSeries.startSize(2).endSize(0.5);
+            } else {
+              connectorSeries.startSize(1).endSize(0);
+            }
+
+            // Sets settings for legend items
+            connectorSeries
+              .legendItem()
+              .iconType("square")
+              .iconFill(color)
+              .iconStroke(false);
+              
+          };
+
+          // Creates Dataset from Sample data
+          var dataSet = anychart.data.set(data).mapAs();
+
+          // Creates 6 series, filtering the data by the amount of migration numbers
+          createSeries(
+            "Less than 50",
+            dataSet.filter("total", filterFunction(0, 50)),
+            //'#c8ece6'
+            "#fed693",
+            2022
+          );
+          createSeries(
+            "50 to 100",
+            dataSet.filter("total", filterFunction(50, 100)),
+            //'#7fcdbb'
+            "#f5ad52",
+            2022
+          );
+          createSeries(
+            "100 to 200",
+            dataSet.filter("total", filterFunction(100, 200)),
+            "#3fb8c5",
+            2022
+            //'#e47961'
+            //'#e47961'
+          );
+          createSeries(
+            "200 to 450",
+            dataSet.filter("total", filterFunction(200, 450)),
+            "#1792c0",
+            2022
+            //'#c65154'
+          );
+          createSeries(
+            "More than 500",
+            dataSet.filter("total", filterFunction(450, 5000)),
+            "#1c5eaa",
+            2022
+            //'#751232'
+          );
+
+          // Turns on the legend for the sample
+          map
+            .legend()
+            .enabled(true)
+            .position("center")
+            .padding([20, 0, 20, 0])
+            .fontSize(10);
+
+          map
+            .legend()
+            .title()
+            .enabled(true)
+            .fontSize(13)
+            .padding([0, 0, 5, 0])
+            .text("Number of Refugee going back in 2022");
+
+          // Sets container id for the chart
+          map.container("container");
+
+          // Initiates chart drawing
+          map.draw();
+
+         // Add this function after the 'createSeries' function definition
+
+
+
+
+
+
+        });
+      });
+
+
+     
+    </script>
+  </body>
+</html>
