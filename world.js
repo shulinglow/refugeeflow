@@ -25,7 +25,7 @@ const tooltip = d3.select("body").append("div")
 
 d3.csv("population_new.csv").then(data => {
     const startYear = 2018; // Replace with the starting year in your dataset
-    const endYear = 2023; // Replace with the ending year in your dataset
+    const endYear = 2022; // Replace with the ending year in your dataset
 
     d3.json(url).then(world => {
         svg.selectAll("path")
