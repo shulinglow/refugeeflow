@@ -1,0 +1,267 @@
+year,country,category,value
+2018,Argentina,South America,106
+2018,Armenia,Asia,115
+2018,Australia,Oceania,22
+2018,Austria,Europe,282
+2018,Azerbaijan,Asia,5
+2018,Belgium,Europe,166
+2018,Belarus,Europe,1804
+2018,Brazil,South America,14
+2018,Canada,North America,1319
+2018,Costa Rica,North America,17
+2018,Cyprus,Asia,30
+2018,Czechia,Europe,318
+2018,Denmark,Europe,27
+2018,Ecuador,South America,14
+2018,Estonia,Europe,64
+2018,Finland,Europe,8
+2018,France,Europe,1715
+2018,United Kingdom of Great Britain and Northern Ireland,Europe,144
+2018,Georgia,Asia,617
+2018,Germany,Europe,741
+2018,Greece,Europe,145
+2018,Croatia,Europe,8
+2018,Hungary,Europe,19
+2018,Iceland,Europe,17
+2018,Ireland,Europe,78
+2018,Italy,Europe,5861
+2018,Kyrgyzstan,Asia,19
+2018,South Korea,Asia,14
+2018,Liechtenstein,Europe,5
+2018,Lithuania,Europe,64
+2018,Luxembourg,Europe,6
+2018,Mauritania,Africa,5
+2018,Moldova,Europe,58
+2018,Mexico,North America,18
+2018,Malta,Europe,136
+2018,Netherlands,Europe,23
+2018,Norway,Europe,10
+2018,Peru,South America,16
+2018,Poland,Europe,464
+2018,Portugal,Europe,423
+2018,Romania,Europe,28
+2018,Russian Federation,Europe ,75146
+2018,Spain,Europe,562
+2018,Kosovo,Europe,15
+2018,Slovakia,Europe,23
+2018,Slovenia,Europe,5
+2018,Sweden,Europe,215
+2018,Switzerland,Europe,56
+2018,Uruguay,South America,11
+2018,United States of America,North America,2270
+2019,Argentina,South America,117
+2019,Armenia,Asia,116
+2019,Australia,Oceania,24
+2019,Austria,Europe,265
+2019,Azerbaijan,Asia,5
+2019,Belgium,Europe,254
+2019,Belarus,Europe,2300
+2019,Bolivia ,South America,5
+2019,Brazil,South America,17
+2019,Canada,North America,1199
+2019,Costa Rica,North America,13
+2019,Cyprus,Asia,30
+2019,Czechia,Europe,305
+2019,Denmark,Europe,28
+2019,Ecuador,South America,14
+2019,Estonia,Europe,62
+2019,Finland,Europe,11
+2019,France,Europe,1839
+2019,United Kingdom of Great Britain and Northern Ireland,Europe,185
+2019,Georgia,Asia,306
+2019,Germany,Europe,847
+2019,Greece,Europe,151
+2019,Croatia,Europe,8
+2019,Hungary,Europe,15
+2019,Iceland,Europe,18
+2019,Ireland,Europe,81
+2019,Israel,Asia,5
+2019,Italy,Europe,6353
+2019,Kyrgyzstan,Asia,23
+2019,South Korea,Asia,14
+2019,Liechtenstein,Europe,5
+2019,Lithuania,Europe,64
+2019,Luxembourg,Europe,6
+2019,Mauritania,Africa,5
+2019,Moldova,Europe,53
+2019,Mexico,North America,17
+2019,Malta,Europe,142
+2019,Netherlands,Europe,20
+2019,Norway,Europe,10
+2019,Peru,South America,17
+2019,Poland,Europe,485
+2019,Portugal,Europe,436
+2019,Romania,Europe,22
+2019,South Africa,Africa,5
+2019,Russian Federation,Europe ,40393
+2019,Spain,Europe,631
+2019,Kosovo,Europe,15
+2019,Slovakia,Europe,24
+2019,Slovenia,Europe,5
+2019,Sweden,Europe,223
+2019,Switzerland,Europe,65
+2019,Uruguay,South America,11
+2019,United States of America,North America,2580
+2020,Argentina,South America,118
+2020,Armenia,Asia,115
+2020,Australia,Oceania,24
+2020,Austria,Europe,251
+2020,Azerbaijan,Asia,5
+2020,Belgium,Europe,254
+2020,Belarus,Europe,2471
+2020,Bolivia,South America,5
+2020,Brazil,South America,19
+2020,Canada,North America,1205
+2020,Costa Rica,North America,13
+2020,Cyprus,Asia,30
+2020,Czechia,Europe,284
+2020,Denmark,Europe,29
+2020,Ecuador,South America,15
+2020,Estonia,Europe,29
+2020,Finland,Europe,11
+2020,France,Europe,1921
+2020,United Kingdom of Great Britain and Northern Ireland,Europe,208
+2020,Georgia,Asia,493
+2020,Germany,Europe,895
+2020,Greece,Europe,158
+2020,Croatia,Europe,8
+2020,Hungary,Europe,14
+2020,Iceland,Europe,19
+2020,Ireland,Europe,85
+2020,Israel,Asia,27
+2020,Italy,Europe,2920
+2020,Kyrgyzstan,Asia,21
+2020,South Korea,Asia,14
+2020,Liechtenstein,Europe,5
+2020,Lithuania,Europe,64
+2020,Luxembourg,Europe,5
+2020,Moldova,Europe,33
+2020,Mexico,North America,17
+2020,Malta,Europe,141
+2020,Netherlands,Europe,21
+2020,Norway,Europe,10
+2020,Peru,South America,17
+2020,Poland,Europe,416
+2020,Portugal,Europe,443
+2020,Romania,Europe,20
+2020,South Africa,Africa,5
+2020,Russian Federation,Europe ,18428
+2020,Spain,Europe,922
+2020,Kosovo,Europe,15
+2020,Slovakia,Europe,24
+2020,Slovenia,Europe,5
+2020,Sweden,Europe,232
+2020,Switzerland,Europe,80
+2020,Uruguay,South America,11
+2020,United States of America,North America,2581
+2021,Argentina,South America,121
+2021,Armenia,Asia,117
+2021,Australia,Oceania,18
+2021,Austria,Europe,253
+2021,Azerbaijan,Asia,5
+2021,Belgium,Europe,289
+2021,Belarus,Europe,2378
+2021,Bolivia ,South America,5
+2021,Brazil,South America,20
+2021,Canada,North America,1228
+2021,Costa Rica,North America,13
+2021,Cyprus,Asia,31
+2021,Czechia,Europe,225
+2021,Denmark,Europe,29
+2021,Ecuador,South America,15
+2021,Estonia,Europe,28
+2021,Finland,Europe,11
+2021,France,Europe,2801
+2021,United Kingdom of Great Britain and Northern Ireland,Europe,225
+2021,Georgia,Asia,481
+2021,Germany,Europe,918
+2021,Greece,Europe,169
+2021,Croatia,Europe,8
+2021,Hungary,Europe,13
+2021,Iceland,Europe,20
+2021,Ireland,Europe,79
+2021,Israel,Asia,27
+2021,Italy,Europe,3379
+2021,Kyrgyzstan,Asia,18
+2021,South Korea,Asia,14
+2021,Liechtenstein,Europe,5
+2021,Lithuania,Europe,64
+2021,Luxembourg,Europe,5
+2021,Moldova,Europe,18
+2021,Mexico,North America,19
+2021,Malta,Europe,142
+2021,Netherlands,Europe,34
+2021,Norway,Europe,13
+2021,Peru,South America,17
+2021,Poland,Europe,422
+2021,Portugal,Europe,447
+2021,Romania,Europe,17
+2021,South Africa,Africa,5
+2021,Russian Federation,Europe ,8921
+2021,Spain,Europe,1515
+2021,Kosovo,Europe,15
+2021,Slovakia,Europe,24
+2021,Slovenia,Europe,5
+2021,Sweden,Europe,226
+2021,Switzerland,Europe,91
+2021,Uruguay,South America,11
+2021,United States of America,North America,2608
+2022,Albania,Europe,2192
+2022,Argentina,South America,121
+2022,Armenia,Asia,131
+2022,Australia,Oceania,26
+2022,Austria,Europe,74689
+2022,Azerbaijan,Asia,4788
+2022,Belgium,Europe,48238
+2022,Belarus,Europe,12231
+2022,Bolivia,South America,5
+2022,Brazil,South America,34
+2022,Bosnia and Herzegovina,Europe,234
+2022,Bulgaria,Europe,119450
+2022,Canada,North America,149
+2022,Costa Rica,North America,13
+2022,Cyprus,Asia,13707
+2022,Czechia,Europe,386371
+2022,Denmark,Europe,27954
+2022,Ecuador,South America,44
+2022,Estonia,Europe,28181
+2022,Finland,Europe,29172
+2022,France,Europe,94970
+2022,United Kingdom of Great Britain and Northern Ireland,Europe,91223
+2022,Georgia,Asia,22647
+2022,Germany,Europe,876311
+2022,Greece,Europe,16882
+2022,Croatia,Europe,15387
+2022,Hungary,Europe,25982
+2022,Iceland,Europe,1240
+2022,Ireland,Europe,41043
+2022,Israel,Asia,27
+2022,Italy,Europe,145593
+2022,Kyrgyzstan,Asia,17
+2022,South Korea,Asia,14
+2022,Liechtenstein,Europe,280
+2022,Lithuania,Europe,47569
+2022,Luxembourg,Europe,4259
+2022,Latvia,Europe,34256
+2022,North Macedonia,Europe,1174
+2022,Moldova,Europe,75762
+2022,Mexico,North America,20
+2022,Montenegro,Europe,9133
+2022,Malta,Europe,1337
+2022,Netherlands,Europe,67612
+2022,Norway,Europe,19916
+2022,Panama,North America,9
+2022,Peru,South America,23
+2022,Poland,Europe,1200207
+2022,Portugal,Europe,38272
+2022,Romania,Europe,83326
+2022,South Africa,Africa,5
+2022,Russian Federation,Europe ,1456250
+2022,Spain,Europe,128129
+2022,Kosovo,Europe,772
+2022,Slovakia,Europe,83297
+2022,Slovenia,Europe,6652
+2022,Sweden,Europe,40129
+2022,Switzerland,Europe,57697
+2022,Uruguay,South America,15
+2022,United States of America,North America,2794
